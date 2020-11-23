@@ -10,7 +10,8 @@ def match(value):
         # print("Input is empty and last charctor is :- ",i)
             pass
     else:
-        print("Error on the Value :- ", i)
+        print("Error Value is Present :- ",value)
+        raise Exception()
     
 
 def S():
@@ -74,7 +75,7 @@ def D():
         raise Exception()
 
 if __name__ == "__main__":
-    inputLine=iter(input("Enter a line :-"))
+    inputLine=iter(input("Enter a line :- "))
     print("Execting :- \n")
     i=next(inputLine)
     try:
